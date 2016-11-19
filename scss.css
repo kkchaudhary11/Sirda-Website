@@ -1,0 +1,263 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	margin:0%;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #B7322B;
+	font-family:Arial, Helvetica, sans-serif;
+	border-bottom: 1px solid #03C;
+    color:#fff;
+    z-index: 1000;
+    height: 40px;
+    overflow: hidden;
+    -webkit-transition: height 0.3s;
+    -moz-transition: height 0.3s;
+    transition: height 0.3s;
+    line-height:20px;
+	
+}
+.header.shrink {
+    height: 0px;
+    line-height:80px;
+	background:#000;
+}
+.header2{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; 
+	 position: fixed;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    color:#06C;
+	
+    height: 106px;
+     z-index: 1000;
+    -webkit-transition: height 0.3s;
+    -moz-transition: height 0.3s;
+    transition: height 0.3s;
+    line-height:10px;
+	border-bottom:2px solid #C00;
+	 background: rgb(201,201,201); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(201,201,201,1) 0%, rgba(219,219,219,1) 5%, rgba(255,255,255,1) 32%, rgba(255,255,255,1) 80%, rgba(234,234,234,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(201,201,201,1)), color-stop(5%,rgba(219,219,219,1)), color-stop(32%,rgba(255,255,255,1)), color-stop(80%,rgba(255,255,255,1)), color-stop(100%,rgba(234,234,234,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(201,201,201,1) 0%,rgba(219,219,219,1) 5%,rgba(255,255,255,1) 32%,rgba(255,255,255,1) 80%,rgba(234,234,234,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(201,201,201,1) 0%,rgba(219,219,219,1) 5%,rgba(255,255,255,1) 32%,rgba(255,255,255,1) 80%,rgba(234,234,234,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(201,201,201,1) 0%,rgba(219,219,219,1) 5%,rgba(255,255,255,1) 32%,rgba(255,255,255,1) 80%,rgba(234,234,234,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(201,201,201,1) 0%,rgba(219,219,219,1) 5%,rgba(255,255,255,1) 32%,rgba(255,255,255,1) 80%,rgba(234,234,234,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9c9c9', endColorstr='#eaeaea',GradientType=0 ); /* IE6-9 */
+} 
+
+
+
+.header2.shrink {
+	top: 1px;
+    left: 0;
+    height: 93px;
+    line-height:0px;
+	color:#06C;
+	font-size:12px;
+	 
+ background: rgb(201,201,201); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(201,201,201,1) 0%, rgba(219,219,219,1) 5%, rgba(255,255,255,1) 32%, rgba(255,255,255,1) 80%, rgba(234,234,234,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(201,201,201,1)), color-stop(5%,rgba(219,219,219,1)), color-stop(32%,rgba(255,255,255,1)), color-stop(80%,rgba(255,255,255,1)), color-stop(100%,rgba(234,234,234,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(201,201,201,1) 0%,rgba(219,219,219,1) 5%,rgba(255,255,255,1) 32%,rgba(255,255,255,1) 80%,rgba(234,234,234,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(201,201,201,1) 0%,rgba(219,219,219,1) 5%,rgba(255,255,255,1) 32%,rgba(255,255,255,1) 80%,rgba(234,234,234,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(201,201,201,1) 0%,rgba(219,219,219,1) 5%,rgba(255,255,255,1) 32%,rgba(255,255,255,1) 80%,rgba(234,234,234,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(201,201,201,1) 0%,rgba(219,219,219,1) 5%,rgba(255,255,255,1) 32%,rgba(255,255,255,1) 80%,rgba(234,234,234,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9c9c9', endColorstr='#eaeaea',GradientType=0 ); /* IE6-9 */
+} 
+
+
+.lih{
+    display: inline;
+	padding-right:1%;
+	color:#999;
+	
+	}
+
+.ulh{
+	font-size:14px;
+		text-align:right;
+	margin-top:0px;
+	padding-top:10px;
+	margin-right:4%;
+}
+
+.h1
+{
+	text-decoration:none;
+	color:#FFF;
+	font-size:12px;
+	
+}
+.h1:hover
+{
+	text-decoration:none;
+	color:#006;
+}
+
+
+
+
+
+#footer
+{
+	width:100%;
+	height:300px;
+	background-color:#EBEBEB;
+	border-top:2px solid #C00;
+}
+#footer2
+{
+	width:100%;
+	height:60px;
+	border-top:1px solid #03C;
+	background-color:#B7322B;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.ulf
+{
+	font-size:14px;
+	margin-top:0px;
+	padding-top:10px;
+	border-spacing:10px;
+
+}
+.lif{
+    display: inline;
+    padding-left:.7%;
+	color:#999;
+}
+
+
+#main
+{
+	width:97%;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin-left:3%;
+	color:#666;
+	
+}
+#form
+{
+	background-color:#E7E6E2;	
+	border:1px solid #900;
+}
+.it,.th1, .td1 {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.th1,.td1 {
+    padding: 8px;
+}
+.tab1
+{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#C00;
+	width:100%;
+	text-align:center;
+	margin-left:0%;
+}
+.tabmain
+{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#666;
+	width:100%;
+	text-align:center;
+	margin-left:0%;
+}
+
+
+
+h3
+{
+	color:#006;
+	text-align:center;
+}
+hr
+{
+	width:230px;
+	
+	}
+.tf1
+{
+	text-decoration:none;
+	color:#C00;
+}
+.tf1:hover
+{
+	text-decoration:none;
+	color:#006;
+}
+.error
+{
+	color:#F00;
+}
+.button
+{
+	background-color:#06C;
+	color:#FFF;
+	border-color:#06F;
+	padding:5px;
+	font-size:14px;
+}
+.button:hover
+{
+	background-color:#900;
+	color:#FFF;
+    border-color:#900;
+}
+.link
+{
+	color:#06C;
+	text-decoration:none;
+}
+.link:hover
+{
+		color:#C00;
+		text-decoration:none;
+}
+
+
+
+.tftextinput
+{
+	margin-left:15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		border:1px solid #0076a3; border-right:0px;
+		border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;
+	}
+.tfbutton {
+		margin: 0;
+		
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px #0076a3; border-right:0px;
+		background:#06C;
+		
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+	}
+.tfbutton:hover {
+		text-decoration: none;
+		background:#900;
+		
+	}
+.tfbutton::-moz-focus-inner {
+	  border: 0;
+	}
+.tfclear{
+		clear:both;
+	}
